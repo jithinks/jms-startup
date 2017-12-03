@@ -40,7 +40,7 @@ public class Receiver {
 
             if (message instanceof TextMessage) {
                 TextMessage text = (TextMessage) message;
-                System.out.println("Message is : " + text.getText());
+                System.out.println("Message is: " + text.getText());
             }
 
             System.out.println("correlationId: " + message.getJMSCorrelationID());
